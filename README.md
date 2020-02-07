@@ -1,1 +1,4 @@
-# mankhedekar96.github.io-chatbot
+# Chatbot
+
+Chatbot created for desktop. 
+It has theming and backend APIs.
