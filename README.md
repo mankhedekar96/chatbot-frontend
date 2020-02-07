@@ -5,6 +5,8 @@ This project is made to understand how Dialogflow works.
 
 You may download the zip file or clone the above folder.
 
+[Check it out here](https://mankhedekar96.github.io/mankhedekar96.github.io-chatbot/)
+
 # Usage
 This frontend can be easily used with a gateway like [this](https://github.com/MishUshakov/dialogflow-gateway).
 Follow [this](https://github.com/MishUshakov/dialogflow-gateway) to setup gateway for your dialogflow agent.
