@@ -1,0 +1,22 @@
+{
+  "name": "chatbotfrontend",
+  "version": "1.0.0",
+  "description": "This project is made to understand how Dialogflow works.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prandon/chatbot_frontend.git"
+  },
+  "author": "Pranjal Nartam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prandon/chatbot_frontend/issues"
+  },
+  "homepage": "https://github.com/prandon/chatbot_frontend#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
