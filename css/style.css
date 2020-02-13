@@ -1,0 +1,173 @@
+/* Page styling */
+.info{
+  padding: 20px;
+}
+
+.themes-container{
+  width:50%;
+  max-height:50%;
+  padding:20px;
+  border:1px solid black;
+  margin: 10px 0px;
+  overflow:scroll;
+}
+
+.theme-box{
+  display:inline-block;
+  width:20%;
+  height:15%;
+  text-align:center;
+  font-weight: bold;
+  margin: 2%;
+}
+
+.box-shadow{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+/* ChatBot styling */
+.chat-box {
+  width: 300px;
+  height: 450px;
+  position:fixed;
+  bottom:0;
+  right:0;
+  text-align: center;
+  overflow:hidden;
+  transition: all 0.2s linear;
+  margin: 0px 10px 5px;
+}
+
+/* Chatbox header styling */
+.chatbox-header{
+  display:flex;
+  z-index:10;
+}
+
+.label {
+  text-align: center;
+  font-size:20px;
+  font-weight: bold;
+  margin: 4% auto;
+}
+
+.toggle-view-btn{
+  width:50px;
+  float:right;
+  font-size:30px;
+  font-weight:bold;
+  border: none;
+}
+
+.toggle-view-btn:focus{
+  outline-style:none;
+}
+
+/* Chats container styling */
+.chat-container{
+  list-style-type:none;
+  position: absolute;
+  margin:0 auto;
+  width: 88%;
+  left:2%;
+  bottom: 50px;
+  padding: 3% 5%;
+  max-height:73%;
+  overflow-y: scroll;
+  overflow-x:hidden;
+}
+
+.sent{
+  clear:both;
+  float:right;
+  padding: 3%;
+  width:150px;
+  margin: 3px auto;
+	position: relative;
+	background: rgb(240, 240, 240);
+	border-radius: .4em;
+  white-space: pre-wrap;      /* CSS3 */   
+  white-space: -moz-pre-wrap; /* Firefox */    
+  white-space: -pre-wrap;     /* Opera <7 */   
+  white-space: -o-pre-wrap;   /* Opera 7 */    
+  word-wrap: break-word; 
+}
+
+.sent::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-left-color: rgb(240, 240, 240);
+    border-right: 0;
+    border-bottom: 0;
+    margin-top: 0px;
+    margin-right: -10px;
+}
+
+.received{
+  clear:both;
+  float:left;
+  padding: 3%;
+  width:150px;
+  margin: 3px auto;
+	position: relative;
+	background: rgb(240, 240, 240);
+	border-radius: .4em;
+  white-space: pre-wrap;      /* CSS3 */   
+  white-space: -moz-pre-wrap; /* Firefox */    
+  white-space: -pre-wrap;     /* Opera <7 */   
+  white-space: -o-pre-wrap;   /* Opera 7 */    
+  word-wrap: break-word; 
+}
+
+.received:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-right-color: rgb(240, 240, 240);
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: 0px;
+	margin-left: -10px;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: orange;
+}
+
+
+/* Input box styling */
+.input-box{
+  width:276px;
+  position: absolute;
+  bottom: 0;
+  left:12px;;
+  margin: 10px auto;
+  z-index:7;
+  padding: 5px;
+}
+
+.input-box:focus{
+  outline:none;
+}

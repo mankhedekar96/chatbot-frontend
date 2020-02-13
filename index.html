@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/themes.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+      <div class="info">
+        <h1>This is the chat bot developed with DialogFlow platform.</h1>
+        <div>
+          <h4>Choose the theme from below</h4>
+          <div class='ask-color'>
+            <input id='inputColor' class='input-color' placeholder='CSS color or Hex color' type='text'>
+            <button onclick='addColor()'>Add</button>
+          </div>
+          <div id='themes' class='themes-container'></div>
+        </div>
+      </div>
+      <div id='chatBox' class="chat-box blue-semi box-shadow">
+        <div id="chatBoxHeader" class='chatbox-header box-shadow'>
+          <div class='label'>HindiBot</div>
+          <button id='toggleViewBtn' class="toggle-view-btn" onclick='toggleView()'>-</button>
+        </div>
+        <input class='input-box' id="userBox" type="text" placeholder="" onkeydown="if (event.keyCode == 13) {userAction()}">
+        <div class='chat-container' id='chatContainer'></div>
+      </div>
+
+      <script src='js/script.js'></script>
+    </body>
+</html>
